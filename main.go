@@ -5,8 +5,8 @@ import (
 	//"goexamples/values"
 	//"goexamples/variables"
 	//"goexamples/constants"
-	"goexamples/forLoops"
-
+	//"goexamples/forLoops"
+	"goexamples/controls"
 )
 
 func main(){
@@ -16,7 +16,8 @@ func main(){
 	values.PrintValues()
 	variables.PrintVariables()
 	constants.PrintConstants()
-	*/
-
 	forLoops.PrintForLoops()
+	*/
+	controls.PrintControls()
+	
 }
